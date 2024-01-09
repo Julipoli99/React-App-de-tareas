@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+  }
+
+.taskList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

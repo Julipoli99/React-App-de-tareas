@@ -1,0 +1,39 @@
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea,
+.taskForm-button.create {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.taskForm-button.create {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.taskForm-button.create:hover {
+    background-color: #45a049;
+}
